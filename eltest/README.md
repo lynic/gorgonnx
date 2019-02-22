@@ -8,7 +8,7 @@ mnist_test.go cotains the same tests to run against gorgonia, and  it didn't giv
 Run tests against onnxruntiime:
 ```
 docker pull elynn/onnxrt:latesst
-docker run --rm -it -v $(pwd):/opt/test/ elynn//onnxrt:latest
+docker run --rm -it -v $(pwd):/opt/test/ elynn/onnxrt:latest
 cd /opt/test
 python testbackend.py
 ```
